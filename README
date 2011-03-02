@@ -1,0 +1,9 @@
+1.Install python
+2.Get Beautifulsoup (http://www.crummy.com/software/BeautifulSoup/) - Python HTML/XML parser 
+3.Create a google doc here i have created a spreadsheet with movies i have seen
+4.Publish it as web page 
+5.Change the url on code
+       eg.: page = urllib2.urlopen("https://spreadsheets.google.com/pub?key=0AujzeBNXnyI-dDNBRFJZaTZyRnZnMzdnQlFzSkRsd2c&hl=en&output=html")
+6.Retrieve the columns values or whatever u want pointing to the html element.
+	eg.:ted = soup.findAll('td',{ 'class' : 's1'})
+
